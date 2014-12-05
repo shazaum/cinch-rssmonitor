@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["shazaum@me.com"]
   spec.summary       = %q{RSS Monitor}
   spec.description   = %q{A simple rss monitor}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/shazaum/cinch-rssmonitor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
