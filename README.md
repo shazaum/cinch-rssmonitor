@@ -20,7 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use this setting to works.
+
+```ruby
+c.plugins.plugins = [Cinch::Plugins::RssMonitor]
+
+c.plugins.options[Cinch::Plugins::RssMonitor] = {
+   :rss_file => '/path/plugins/(your_file).yml',
+   :timer => 200,
+}
+```
 
 ## Contributing
 
