@@ -26,8 +26,7 @@ Use this setting to works.
 c.plugins.plugins = [Cinch::Plugins::RssMonitor]
 
 c.plugins.options[Cinch::Plugins::RssMonitor] = {
-   :rss_file => '/path/plugins/(your_file).yml',
-   :timer => 200,
+   :rss_file => '/path/plugins/(your_file).yml'
 }
 ```
 
