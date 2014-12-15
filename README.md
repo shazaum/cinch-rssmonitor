@@ -1,6 +1,12 @@
 # Cinch::Rssmonitor
 
-TODO: Write a gem description
+TODO: 
+
+* Add loop for read feeds
+* Command's
+	* show
+	* delete
+
 
 ## Installation
 
